@@ -1,0 +1,161 @@
+p.dotted{
+	border border-style: dotted;}
+p.doshed{
+	border-style: dashed;}
+p.solid{
+	border-style: solid;}
+p.double{
+	border-style: double;}
+p.groove{
+	border-style: groove;}
+p.ridge{
+	border-style: ridge;}
+p.inset{
+	border-style: inset;}
+p.outset{
+	border-style: outset;}
+p.none{
+	border-style: none;}
+p.hidden{
+	border-style: hidden;}
+p.width{
+		border-style: double;
+		border-width: thick;
+	}
+p.color{
+	border-style: solid;
+	border-color: yellow;
+}
+p{
+	border-top-style: solid;
+	border-left-style: double;
+	border-right-style: groove;
+	border-bottom-style: inset;
+}
+p.bottom{
+	border-bottom: 6px double green;
+	background-color: orange;
+
+}
+p.round{
+	border:5px solid red;
+	border-radius: 8px;
+}
+p.margin{
+	margin:80px;
+	border:2px double green;
+}
+h1{
+	margin:0 0 50px 0;
+}
+h2{
+	margin: 20px 0 0 0 ;
+
+}
+p.padding{
+	border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px
+}
+p.padElmtWdth{
+	width: 200px;
+	padding: 20px;
+}
+p.width_height{
+	width: 250px;
+	height: 50px;
+	background-color: powderblue;
+}
+p.max_min_width{
+	max-width: 200px;
+	max-height: 150px;
+	background-color: skyblue;
+}
+div{
+	background-color: lightgray;
+	width: 200px;
+	padding: 30px ;
+	border: 25px solid yellow;
+	margin: 20px;
+}
+div.w_h{
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+		border: 5PX double green;
+		margin: 50px;
+}
+p.outline{
+	 margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+
+}
+h1.text_color{
+	color:brown;
+}
+h1.text_align_C{
+	text-align: center;
+}
+h1.text_align_R{
+	text-align: right;
+}
+h1.text_align_L{
+	text-align: left;
+}
+h1.text_decrtn_overline{
+	text-decoration: overline;
+}
+h1.text_decrtn_linethrw{
+	text-decoration: line-through;
+}
+h1.text_decrtn_underln{
+	text-decoration: underline;
+}
+p.text_trnsfrm_Uprcase{
+	text-transform: uppercase;
+}
+p.text_trnsfrm_Lwrcase{
+	text-transform: lowercase;
+}
+p.text_trnsfrm_cptlz{
+	text-transform: capitalize;
+}
+a:link,a:visited{
+	 background-color: #f44336;
+    color: red;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block
+	
+}
+
+a:hover,a:actiev{
+	background-color: yellow;
+}
+div.hover{
+		background-color: yellow;
+		color: black;
+		padding: 30px;
+		text-align: center;
+}
+div.hover:hover{
+	background-color: green;
+}
+p.hover2{
+	display: none;
+	background-color: blue;
+	padding: 25px;
+}
+div.hover1:hover p.hover2{
+	display: block;
+}
+
+
+	
